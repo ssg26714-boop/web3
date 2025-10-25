@@ -52,6 +52,22 @@ body {
   box-shadow: 0 4px 12px rgba(246, 133, 27, 0.4);
 }
 
+.wallet-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.demo-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.demo-btn:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
 .wallet-connected {
   display: flex;
   align-items: center;
